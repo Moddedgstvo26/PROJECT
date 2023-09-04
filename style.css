@@ -1,0 +1,129 @@
+
+/* titulo */
+body{
+  text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	line-height: 1.7;
+	color: #ffeba7;
+	background-color: #1f2029;
+  overflow: hidden;
+  height: 100pv;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #12141d 100%);
+}
+
+h1{
+  display: inline-block;
+  position: relative;
+  
+}
+
+h1::ofter,h1::before{
+  content:"";
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;
+}
+
+.galeria{
+  display: flex;
+  height: 20rem;
+  gap: 1rem;
+  
+}
+.galeria > div{
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  transition: all .9s cubic-bezier(.25, .4, .45, 1.4);
+}
+  
+  
+.galeria > div:hober {
+  flex: 5;
+  }
+  
+/* Importar la fuente Indie Flower desde Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
+/* Estilo para el texto dentro de la etiqueta p con la clase "ztexto" usando la fuente Indie Flower */
+.container .ztexto {
+  font-family: 'Indie Flower', cursive; /* Aplicar la fuente Indie Flower */
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  background-color: mistyrose;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 89%;
+  height: 85%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  /* Centrar horizontal y verticalmente */ display: flex; align-items: center; justify-content: center;
+  }
+
+/* Definir la fuente Mystery Quest usando @font-face */
+@font-face {
+    font-family: "Mystery Quest";
+    src: url("mystery-quest.woff2") format('woff2'),
+         url("mystery-quest.woff") format('woff');
+}
+
+
+/*corazon*/
+
+.container {
+  position: relative;
+  width: 395px;
+  height: 300px;
+  border: 1px solid 00FF0000;
+  overflow: hidden;
+}
+
+.ball {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  animation: moveBall .4s linear infinite;
+}
+
+@keyframes moveBall {
+  0%, 100% {
+    top: calc(100% - 20px);
+    left: 0;
+  }
+  25% {
+    top: calc(100% - 20px);
+    left: calc(100% - 20px);
+  }
+  50% {
+    top: 0;
+    left: calc(100% - 20px);
+  }
+  75% {
+    top: 0;
+    left: 0;
+  }
+}
+.pene{
+  display: inline-block;
+  position: relative;
+  
+}
+
+.pene::ofter,.pene::before{
+  content:"";
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;
+}
